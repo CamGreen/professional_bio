@@ -121,7 +121,7 @@ elif page == "Employment History":
 elif page == "Work Case Studies":
     st.title("Work Case Studies")
     st.write("Due to highly confidential Non-disclosure Agreements (NDA's) between me and clients, I cannot openly share work intelectual property (IP), client names and scope of work. "
-             If you wish to know, please contact me direclty via my work email address and I'll happilly discuss what I can with you.")
+             If you wish to know, please contact me direclty via my work email address and I will happilly discuss what I can with you.")
 
 
 elif page == "Publications":
@@ -234,5 +234,6 @@ elif page == "Contact":
         unsafe_allow_html=True
 
     )
+
 
 
