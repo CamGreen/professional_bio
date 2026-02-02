@@ -53,7 +53,7 @@ if page == "Profile":
         )
 
     with col1:
-        st.write("**Geospatial Developer | Geospatial Data Scientist | R&D Engineer | Geospatial Machine Learning**")
+        st.write("**Geospatial Developer | Geospatial Data Scientist | R&D Engineer | GeoAI & Machine Learning**")
 
         st.write(
             "Experienced Geospatial Developer and Spatial Data Infrastructure (SDI) Engineer with a strong background "
@@ -62,8 +62,7 @@ if page == "Profile":
             "engineering, property cadastre management, and AI-based remote sensing analysis. I hold a Master’s "
             "degree in Geoinformatics from the University of Pretoria, and I’ve successfully delivered complex, "
             "data-driven geospatial solutions in both academic and commercial settings. I'm proficient in Python, "
-            "AWS, and geospatial analysis tools, and currently expanding my capabilities in geospatial machine "
-            "learning and infrastructure."
+            "AWS, and geospatial analysis tools, and currently Head of GeoAI & Machine Learning Infrastructure."
         )
 
 elif page == "Employment History":
@@ -226,3 +225,4 @@ elif page == "Contact":
         unsafe_allow_html=True
 
     )
+
