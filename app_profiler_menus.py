@@ -26,6 +26,8 @@ if st.sidebar.button("Employment History"):
     st.session_state.page = "Employment History"
 if st.sidebar.button("Education"):
     st.session_state.page = "Education"
+if st.sidebar.button("Work Case Studies"):
+    st.session_state.page = "Work Case Studies"
 if st.sidebar.button("Publications"):
     st.session_state.page = "Publications"
 if st.sidebar.button("Contact"):
@@ -114,6 +116,13 @@ elif page == "Employment History":
              "geospatial data, and contributed to the development of research papers and publications. I utilized my "
              "knowledge of geoinformatics and data analysis techniques to support the research objectives and "
              "contribute to the advancement of knowledge in the field.")
+
+
+elif page == "Work Case Studies":
+    st.title("Work Case Studies")
+    st.write("Due to highly confidential Non-disclosure Agreements (NDA's) between me and clients, I cannot openly share work intelectual property (IP), client names and scope of work. "
+             If you wish to know, please contact me direclty via my work email address and I'll happilly discuss what I can with you.")
+
 
 elif page == "Publications":
     st.title("Publications")
@@ -225,4 +234,5 @@ elif page == "Contact":
         unsafe_allow_html=True
 
     )
+
 
