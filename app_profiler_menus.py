@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 from urllib.parse import quote
 from scholarly import scholarly
 
@@ -226,4 +224,5 @@ elif page == "Contact":
     st.markdown(
         f'<a href="mailto:{private_email}?subject={subject}&body={body}">Email me privately</a>',
         unsafe_allow_html=True
+
     )
